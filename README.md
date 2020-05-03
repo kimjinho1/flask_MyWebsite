@@ -1,7 +1,7 @@
 # flask_MyWebsite
 
 ### Jinho_website-V1  
-**아래에 github, instagram 아이콘 누르면 내 github, instagram 창이 열림.**  
+**아래에  github, instagram 아이콘 누르면 내 github, instagram 창이 열림.**  
 layout.html -> title 수정 가능  
 index.html -> 본문 내용 수정 가능  
 footer.html -> gituhb, instagram 주소 변경 가능  
