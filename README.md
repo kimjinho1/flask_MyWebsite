@@ -11,6 +11,8 @@
 - static/images/layout -> 아이콘(로고)이미지 변경 가능  
 
 ### Jinho_website-V2  
-upadte soon..  
 
+
+- upadte soon..    
+  
 ### 
