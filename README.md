@@ -17,6 +17,7 @@
 - **이미지 업로드를 눌러서 사진을 올리면 닮은 연예인을 출력해준다.  EX) Chen을 닮으셨네요~**  
 - **닮은 연예인이 없다면 아주 기분 좋은 말이 출력된다.**  
 - **얼굴이 딱 하나만 인식되어야 한다. 하나도 인식 못하거나 여러개를 인식한 경우 "try again"이 출력된다.**   
+- https://github.com/davisking/dlib-models 에 있는 shape_predictor_68_face_landmarks.dat 파일이 model 폴더에 추가해야 됨.
 - https://niceman.tistory.com/192 를 참고해서 만듬.  
 - routes.py -> 예측 모델과 출력 결과 수정 가능  
 
