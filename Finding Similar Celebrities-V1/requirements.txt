@@ -1,0 +1,8 @@
+Flask
+Jinja2
+numpy
+virtualenv
+pillow
+imageio
+cv2
+dlib
