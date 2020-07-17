@@ -1,5 +1,9 @@
 # flask_MyWebsite
 
+## Download Models
+- [shape_predictor_68_face_landmarks.dat.bz2](https://github.com/davisking/dlib-models/raw/master/shape_predictor_68_face_landmarks.dat.bz2)
+- [dlib_face_recognition_resnet_model_v1.dat](https://github.com/kairess/simple_face_recognition/raw/master/models/dlib_face_recognition_resnet_model_v1.dat)
+
 ## Jinho_website-V1  
 ![v1](https://user-images.githubusercontent.com/29765855/80912272-c771c200-8d76-11ea-84b2-269035f93ba7.png)  
 
@@ -23,8 +27,6 @@
 
 
 ## Jinho_website-V2  
+- **위의 2개를 간단하게 섞었다.**   
 
-
-- upadte soon..    
-  
 ## 
