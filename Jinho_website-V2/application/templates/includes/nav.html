@@ -1,0 +1,11 @@
+    <header>
+        <nav>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="{{ url_for('index') }}" 
+                    class="nav-link {% if index %}active{% endif %}">Home</a></li>
+                <li class="nav-item"><a href="{{ url_for('celebrities') }}" 
+                    class="nav-link {% if celebrities %}simliar_celebrities{% endif %}">find simliar celebrities</a></li>
+            </ul>
+        </nav>
+        <hr style="clear:both">
+    </header>

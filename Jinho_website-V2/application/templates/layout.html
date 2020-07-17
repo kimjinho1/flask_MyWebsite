@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>    
+    
+    <head>
+        <title>Jinho's first homepage</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="static/css/main.css"/>
+    </head>
+
+    <style type="text/css">
+	/* 꼬리말 */
+	footer{
+		padding: 0px 0px;
+		background-color: #353535;
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.footer_table{color: white; width: 30%;}
+	.footer_table td{text-align: center;}
+	.footer_table .footer-txt{font-weight: bold; color: #747474;}
+	.footer_table img{width: 23px; height: 23px}
+	.footer_table img:hover{opacity: 0.5; cursor: pointer;}
+    </style>
+    
+    <body>
+        <div class="container-fluid text-center top-container">
+<!--             <img src="static/images/layout/inu-logo.png"> -->
+            <img src="static/images/layout/study.jpg">
+        </div>
+
+        <div class="container">
+            {% include "includes/nav.html" %}
+
+            {% block content %}
+            {% endblock %}
+        </div>    
+    {% include "includes/footer.html" %}
+    </body>
+    
+</html>    

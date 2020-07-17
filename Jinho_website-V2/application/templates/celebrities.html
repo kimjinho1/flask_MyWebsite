@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>닮은 연예인 찾기</h1>
+        </div>
+    </div>
+
+<body>
+    <h4><strong>파일 선택 -> 예측 결과<br></strong><br></h4>
+    <form id="upload" action="/predict" method="POST" enctype="multipart/form-data">
+        <div class="upload-btn-wrapper">
+            <button class="btn">이미지 업로드</button>
+            <input type="file" value="Upload" name="image">
+        </div>
+        <input type="submit" value="예측 결과">
+        <p><br></p>
+        {% if label %}
+            <center>
+            <span class="result_lable">
+            <h3><strong>    {{ label }}    <br></strong><br></h3>
+            </span>
+            </center>
+        {% endif %}
+    </form>
+<body>
+    
+{% endblock %}
+
+
+
+<!-- <html>
+
+<head>
+    <title>Finding Similar Celebrities by Jinho</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<h1>Finding Similar Celebrities by Jinho</h1>
+<div class="agile-its">
+    <h2>Flask with ML Web Service</h2>
+    <div class="w3layouts">
+        <div class="photos-upload-view">
+
+            <form id="upload" action="/predict" method="POST" enctype="multipart/form-data">
+                <div class="upload-btn-wrapper">
+                    <button class="btn">이미지 업로드</button>
+                    <input type="file" value="Upload" name="image">
+                </div>
+                <input type="submit" value="예측 결과">
+                <p><br></p>
+                {% if label %}
+                    <center>
+                    <span class="result_lable">
+                        {{ label }}
+                    </span>
+                    </center>
+                {% endif %}
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+</html> -->
